@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            2xxdw983acdprweor8mumnhdgapeifun:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M3
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                codePath: pinn_project/train.py
+                codePathLocal: train.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "291920465920"
+                email: anilkumarmondru91@gmail.com
+                executable: /Users/anilkumar/Contributions/.venv/bin/python
+                host: Mac.lan
+                memory:
+                    total: "17179869184"
+                os: macOS-26.1-arm64-arm-64bit
+                program: /Users/anilkumar/Contributions/pinn_project/train.py
+                python: CPython 3.9.6
+                root: /Users/anilkumar/Contributions/pinn_project
+                startedAt: "2025-12-19T13:08:59.978554Z"
+                writerId: 2xxdw983acdprweor8mumnhdgapeifun
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 1
+                - 2
+                - 16
+                - 61
+            "4": 3.9.6
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": darwin-arm64
+data_weight:
+    value: 1
+hidden_features:
+    value: 64
+hidden_layers:
+    value: 5
+iterations:
+    value: 5000
+lambda_1:
+    value: 1
+lambda_2:
+    value: 0.01
+log_interval:
+    value: 100
+lr:
+    value: 0.001
+physics_weight:
+    value: 1
+viz_interval:
+    value: 500
